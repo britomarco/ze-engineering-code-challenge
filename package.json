@@ -1,10 +1,10 @@
 {
-  "name": "empty-project",
+  "name": "ze-engineering-code-challenge",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "keywords": [],
-  "author": "",
+  "author": " Marco Aurélio Brito",
   "license": "ISC",
   "scripts": {
     "clean": "rm dist/bundle.js",
