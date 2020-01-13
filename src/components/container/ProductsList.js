@@ -35,7 +35,7 @@ export default class ProductsList extends Component {
 
     render() {
         return (
-            <div className="container">
+            <div className="container product-container">
                     <div className="search-box-filter item">
                         <SearchBox onKeyDown={productTitle => this.setState({ search: productTitle }, this.getProducts)} />
                     </div>

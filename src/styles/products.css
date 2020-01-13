@@ -11,9 +11,9 @@
     margin-top: 5px;
 }
 
-/* .item {
-    margin-bottom: 15px;
-} */
+.categories-filter{
+    width: -webkit-fill-available;
+}
 
 .products-container {
     display: flex;

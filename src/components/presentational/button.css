@@ -1,11 +1,12 @@
 .category-container{
-    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
     flex-flow: wrap;
     flex-wrap: wrap;
     box-align: center;
     align-items: center;
     justify-content: center;
-    max-width: 1200px;
     padding: 16px 0px;
 		display: flex;
     flex-direction: row;
@@ -19,9 +20,6 @@
 	.btn-category {
     height: 48px;
     width: 171px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     border-radius: 8px;
     box-sizing: border-box;
@@ -36,4 +34,10 @@
     padding-bottom: 12px;
     flex: 1;
     white-space: nowrap;
+    display: flex;
+    flex-wrap: wrap;
 	}
+
+  .btn-category:hover{
+    cursor: pointer;
+  }
