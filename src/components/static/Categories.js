@@ -1,5 +1,5 @@
 import React from 'react';
-import './button.css';
+import '../../styles/button.css';
 import cerveja from '../../images/cerveja.png'
 import destilados from '../../images/destilados.png'
 import outros from '../../images/outros.png';

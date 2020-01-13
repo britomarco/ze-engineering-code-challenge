@@ -2,3 +2,6 @@
 
 # Run Project
 npm start
+
+# test
+npm test
