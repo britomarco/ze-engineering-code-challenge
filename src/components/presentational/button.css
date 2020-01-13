@@ -35,4 +35,5 @@
     margin: 4px;
     padding-bottom: 12px;
     flex: 1;
+    white-space: nowrap;
 	}

@@ -14,10 +14,10 @@ export default class ProductsList extends Component {
     }
 
     componentDidMount() {
-        this.fetchProducts()
+        this.getProducts()
     }
 
-    fetchProducts() {
+    getProducts() {
         this.setState({ loading: true })
         getProducts(localStorage.getItem("pocId"), this.state.search, this.state.categoryId)
             .then(this.handleResponse)
@@ -37,18 +37,18 @@ export default class ProductsList extends Component {
         return (
             <div className="container">
                     <div className="search-box-filter item">
-                        <SearchBox onKeyDown={productTitle => this.setState({ search: productTitle }, this.fetchProducts)} />
+                        <SearchBox onKeyDown={productTitle => this.setState({ search: productTitle }, this.getProducts)} />
                     </div>
                 <div className="filters">
                     <div className="categories-filter item">
-                        <CategoryList onClick={e => this.setState({ categoryId: e.target.value }, this.fetchProducts)} />
+                        <CategoryList onClick={e => this.setState({ categoryId: e.target.value }, this.getProducts)} />
                     </div>
 
                 </div>
 
                 <div className="products-container">
                     {
-                        this.state.products.length > 0
+                        this.state.products.length > 0 && this.state.loading === false
                         ?
                             this.state.products.map((product, index) => {
                                 return <Product {...product} key={index} />
