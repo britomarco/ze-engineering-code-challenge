@@ -10,6 +10,11 @@
     right: 0;
 }
 
+.beer-loading{
+    width: 400px;
+    height: auto;
+}
+
 #loading:before {
     content: '';
     display: block;

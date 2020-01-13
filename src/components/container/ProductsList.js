@@ -10,7 +10,7 @@ export default class ProductsList extends Component {
 
     constructor() {
         super();
-        this.state = { products: [], categoryId: null, search: '', loading: false }
+        this.state = { products: [], categoryId: null, search: '', loading: true }
     }
 
     componentDidMount() {
