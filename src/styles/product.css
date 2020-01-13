@@ -1,0 +1,90 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    vertical-align: top;
+    padding: 0px 5px 10px 5px;
+    border: 1px solid #e8e8e8;
+    width: 48%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.product-card:nth-child(odd) {
+    margin-right: 4%;
+}
+
+.product-card img {
+    margin: 5px auto;
+    top: 5px;
+    width: 145px;
+    height: 145px;
+}
+
+.product-title, .product-price {
+    text-align: center;
+}
+
+.product-price {
+    margin-bottom: 10px;
+}
+
+.product-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.product-buttons button, .box-quantity {
+    border-radius: 5px;
+    height: 30px;
+    line-height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 25px;
+    background-color: #ffffff;
+}
+
+.btn-subtract, .btn-plus {
+    width: 25%;
+}
+
+.btn-subtract {
+    border: 1px solid red;
+    color: red;
+    margin-right: 5px;
+}
+
+.btn-subtract:active {
+    color:#ffffff;
+    background-color: red;
+}
+
+.btn-plus {
+    border: 1px solid green;
+    color: green;
+    height: 100%;
+    margin-left: 5px;
+}
+
+.btn-plus:active {
+    color:#ffffff;
+    background-color: green;
+}
+
+.box-quantity {
+    width: 75%;
+    border: 1px solid #e8e8e8;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .product-card {
+        width: 22%;
+    }
+
+    .product-card:not(:nth-child(4n + 0)) {
+        margin-right: 4%;
+    }
+}

@@ -1,0 +1,39 @@
+
+header{
+    background-color: #000;
+}
+
+.img-logo {
+    height: 50px;
+    width: auto;
+}
+
+.box-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box-basket > a{
+    color: white;
+}
+
+.box-basket svg {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+    position: relative;
+    top: -2px
+}
+
+
+@media only screen and (min-width : 768px) {
+    .img-logo {
+        height: 56px;
+        width: 175px;
+    }
+
+    .box-header {
+        padding-top: 10px;
+    }
+}
