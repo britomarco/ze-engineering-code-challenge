@@ -5,7 +5,7 @@ import Categories from '../components/static/Categories'
 
 configure({ adapter: new Adapter() });
 
-describe('Categories component testing', function () {
+describe('Categories component test', function () {
 
     it('should call the parameter function when a category is selected', () => {
 

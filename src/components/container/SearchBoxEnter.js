@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchBox from '../presentational/SearchBox'
+import SearchBox from '../static/SearchBox'
 
 export default (props) => {
     return (

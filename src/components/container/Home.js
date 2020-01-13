@@ -3,7 +3,7 @@ import '../../styles/home.css'
 import PlacesAutocomplete, { geocodeByAddress, getLatLng } from 'react-places-autocomplete'
 import '../../styles/google-maps.css'
 import { getPoc } from '../../api/poc-api';
-import Loading from '../presentational/Loading'
+import Loading from '../static/Loading'
 
 export default class Home extends Component {
     constructor(props) {

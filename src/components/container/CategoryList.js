@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Categories from '../presentational/Categories'
+import Categories from '../static/Categories'
 import { getCategories } from '../../api/category-api'
 
 export default class CategoryList extends Component {

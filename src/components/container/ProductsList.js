@@ -4,7 +4,7 @@ import CategoryList from '../container/CategoryList'
 import '../../styles/products.css'
 import { getProducts } from '../../api/product-api';
 import SearchBox from '../container/SearchBoxEnter'
-import Loading from '../presentational/Loading'
+import Loading from '../static/Loading'
 
 export default class ProductsList extends Component {
 

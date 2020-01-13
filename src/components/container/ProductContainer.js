@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Product from '../presentational/Product'
+import Product from '../static/Product'
 
 export default class ProductContainer extends Component {
     constructor(props) {
