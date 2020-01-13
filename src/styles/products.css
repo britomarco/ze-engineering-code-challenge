@@ -1,0 +1,39 @@
+.filters {
+    display: flex;
+    flex-direction: column;
+}
+
+#category, #search-product {
+    width: 100%;
+}
+
+.search-box-filter{
+    margin-top: 5px;
+}
+
+/* .item {
+    margin-bottom: 15px;
+} */
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.margin-15 {
+    margin-right: 15px;
+}
+
+@media only screen and (min-width : 768px) {
+    .filters {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #category {
+        width: auto;
+        height: 40px;
+    }
+
+}
+
