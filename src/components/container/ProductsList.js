@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Product from './ProductContainer'
 import CategoryList from '../container/CategoryList'
 import '../../styles/products.css'
-import { getProducts } from '../../api/product-api';
+import { getProducts } from '../../services/product-service';
 import SearchBox from '../container/SearchBoxEnter'
 import Loading from '../static/Loading'
 

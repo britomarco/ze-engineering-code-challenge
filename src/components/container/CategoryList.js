@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Categories from '../static/Categories'
-import { getCategories } from '../../api/category-api'
+import { getCategories } from '../../services/category-service'
 
 export default class CategoryList extends Component {
 

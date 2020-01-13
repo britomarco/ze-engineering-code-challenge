@@ -1,4 +1,4 @@
-import zxFetch from './zx-apollo-fetch'
+import apolloFetch from './apollo-fetch'
 
 const query = `query pocCategorySearch($id: ID!, $search: String, $categoryId: Int) {
     poc(id: $id) {
@@ -14,7 +14,7 @@ const query = `query pocCategorySearch($id: ID!, $search: String, $categoryId: I
 }`
 
 const getProducts = (pocId, productTitle, categoryId) => {
-    return zxFetch({
+    return apolloFetch({
         query, variables: {
             id: pocId,
             search: productTitle,

@@ -9,7 +9,7 @@ export default () => (
             <div className="box-header">
                 <div className="box-header-logo">
                     <Link to="/">
-                        <img className="img-logo" src={zeLogo} />
+                        <img className="img-logo" src={zeLogo} alt={`Zé Delivery`} />
                     </Link>
                 </div>
                 <div className="box-basket">

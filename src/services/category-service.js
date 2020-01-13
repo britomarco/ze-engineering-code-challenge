@@ -1,4 +1,4 @@
-import zxFetch from './zx-apollo-fetch'
+import apolloFetch from './apollo-fetch'
 
 const query =
     `query allCategoriesSearch {
@@ -9,7 +9,7 @@ const query =
 }`
 
 const getCategories = () => {
-    return zxFetch({ query })
+    return apolloFetch({ query })
         .then(({ data }) => data.allCategory)
         .catch(error => error)
 }

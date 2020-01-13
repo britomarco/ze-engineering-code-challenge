@@ -31,7 +31,7 @@ export default (props) => {
                     className="btn-category"
                     key={category.id}
                     value={category.id}
-                    onClick={props.onClick}><img src={icon[category.id]}/>{category.title}</button>
+                    onClick={props.onClick}><img src={icon[category.id]} alt={category.title}/>{category.title}</button>
             })
             }
         </div>
